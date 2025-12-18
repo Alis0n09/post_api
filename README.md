@@ -100,3 +100,7 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 nest generate module basics
 nest generate controller basics
 nest generate service basics
+
+GIT_SSH_COMMAND='ssh -i ~/.ssh/github_deploy' git clone git@github.com:Alis0n09/post_api.git /opt/posts_api
+
+cd /root/nestjs-blog-backend
