@@ -6,12 +6,12 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get() // ruta principal '/'
-  getHello(): string {
+  getHello(): any {
     return this.appService.getHello();
   }
 
   @Get('health') // ruta '/health'
-  getHealth(): object {
-    return this.appService.health();
+  getHealth(): any {
+    return this.appService.gethealth();
   }
 }
